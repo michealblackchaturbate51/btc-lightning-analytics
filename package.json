@@ -1,0 +1,10 @@
+{
+  "name": "btc-lightning-analytics",
+  "version": "1.0.0",
+  "description": "Analytics dashboard for monitoring Bitcoin Lightning Network channels and payments.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
